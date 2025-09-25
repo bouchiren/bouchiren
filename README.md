@@ -9,7 +9,7 @@ I build staking infrastructure, automation, and monitoring for production-grade 
 ## 🟡 Pac-Man on my contribution graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bouchiren/bouchiren/main/pacman.svg"
+  <img src="https://raw.githubusercontent.com/bouchiren/bouchiren/main/pacman_contrib.svg"
        alt="Pac-Man snake on contributions" width="850">
 </p>
 
