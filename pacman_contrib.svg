@@ -1,30 +1,30 @@
-<svg width="941" height="159" viewBox="0 0 941 159" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="159" viewBox="0 0 941 159">
 
-      <defs>
-        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="#0d1117"/>
-          <stop offset="100%" stop-color="#0b111b"/>
-        </linearGradient>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0b111b"/>
+    </linearGradient>
 
-        <filter id="pmShadow" x="-50%" y="-50%" width="200%" height="200%">
-          <feDropShadow dx="0" dy="0" stdDeviation="2.2" flood-color="#000000" flood-opacity="0.55"/>
-        </filter>
+    <filter id="pmShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.2" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
 
-        <!-- chewing mouth -->
-        <mask id="mouth">
-          <rect width="100%" height="100%" fill="white"/>
-          <g>
-            <polygon id="cut" points="0,0 20.8,-11.700000000000001 20.8,11.700000000000001" fill="black">
-              <animateTransform attributeName="transform" type="rotate"
-                values="-35; -5; -35" dur="0.7s" repeatCount="indefinite"/>
-            </polygon>
-          </g>
-        </mask>
+    <!-- рот -->
+    <mask id="mouth">
+      <rect width="100%" height="100%" fill="white"/>
+      <g>
+        <polygon id="cut" points="0,0 20.8,-11.700000000000001 20.8,11.700000000000001" fill="black">
+          <animateTransform attributeName="transform" type="rotate"
+            values="-35; -5; -35" dur="0.7s" repeatCount="indefinite"/>
+        </polygon>
+      </g>
+    </mask>
 
-        <!-- movement route -->
-        <path id="route" d="M 28.5 28.5 L 28.5 45.5 L 28.5 62.5 L 28.5 79.5 L 28.5 96.5 L 28.5 113.5 L 28.5 130.5 L 45.5 28.5 L 45.5 45.5 L 45.5 62.5 L 45.5 79.5 L 45.5 96.5 L 45.5 113.5 L 45.5 130.5 L 62.5 28.5 L 62.5 45.5 L 62.5 62.5 L 62.5 79.5 L 62.5 96.5 L 62.5 113.5 L 62.5 130.5 L 79.5 28.5 L 79.5 45.5 L 79.5 62.5 L 79.5 79.5 L 79.5 96.5 L 79.5 113.5 L 79.5 130.5 L 96.5 28.5 L 96.5 45.5 L 96.5 62.5 L 96.5 79.5 L 96.5 96.5 L 96.5 113.5 L 96.5 130.5 L 113.5 28.5 L 113.5 45.5 L 113.5 62.5 L 113.5 79.5 L 113.5 96.5 L 113.5 113.5 L 113.5 130.5 L 130.5 28.5 L 130.5 45.5 L 130.5 62.5 L 130.5 79.5 L 130.5 96.5 L 130.5 113.5 L 130.5 130.5 L 147.5 28.5 L 147.5 45.5 L 147.5 62.5 L 147.5 79.5 L 147.5 96.5 L 147.5 113.5 L 147.5 130.5 L 164.5 28.5 L 164.5 45.5 L 164.5 62.5 L 164.5 79.5 L 164.5 96.5 L 164.5 113.5 L 164.5 130.5 L 181.5 28.5 L 181.5 45.5 L 181.5 62.5 L 181.5 79.5 L 181.5 96.5 L 181.5 113.5 L 181.5 130.5 L 198.5 28.5 L 198.5 45.5 L 198.5 62.5 L 198.5 79.5 L 198.5 96.5 L 198.5 113.5 L 198.5 130.5 L 215.5 28.5 L 215.5 45.5 L 215.5 62.5 L 215.5 79.5 L 215.5 96.5 L 215.5 113.5 L 215.5 130.5 L 232.5 28.5 L 232.5 45.5 L 232.5 62.5 L 232.5 79.5 L 232.5 96.5 L 232.5 113.5 L 232.5 130.5 L 249.5 28.5 L 249.5 45.5 L 249.5 62.5 L 249.5 79.5 L 249.5 96.5 L 249.5 113.5 L 249.5 130.5 L 266.5 28.5 L 266.5 45.5 L 266.5 62.5 L 266.5 79.5 L 266.5 96.5 L 266.5 113.5 L 266.5 130.5 L 283.5 28.5 L 283.5 45.5 L 283.5 62.5 L 283.5 79.5 L 283.5 96.5 L 283.5 113.5 L 283.5 130.5 L 300.5 28.5 L 300.5 45.5 L 300.5 62.5 L 300.5 79.5 L 300.5 96.5 L 300.5 113.5 L 300.5 130.5 L 317.5 28.5 L 317.5 45.5 L 317.5 62.5 L 317.5 79.5 L 317.5 96.5 L 317.5 113.5 L 317.5 130.5 L 334.5 28.5 L 334.5 45.5 L 334.5 62.5 L 334.5 79.5 L 334.5 96.5 L 334.5 113.5 L 334.5 130.5 L 351.5 28.5 L 351.5 45.5 L 351.5 62.5 L 351.5 79.5 L 351.5 96.5 L 351.5 113.5 L 351.5 130.5 L 368.5 28.5 L 368.5 45.5 L 368.5 62.5 L 368.5 79.5 L 368.5 96.5 L 368.5 113.5 L 368.5 130.5 L 385.5 28.5 L 385.5 45.5 L 385.5 62.5 L 385.5 79.5 L 385.5 96.5 L 385.5 113.5 L 385.5 130.5 L 402.5 28.5 L 402.5 45.5 L 402.5 62.5 L 402.5 79.5 L 402.5 96.5 L 402.5 113.5 L 402.5 130.5 L 419.5 28.5 L 419.5 45.5 L 419.5 62.5 L 419.5 79.5 L 419.5 96.5 L 419.5 113.5 L 419.5 130.5 L 436.5 28.5 L 436.5 45.5 L 436.5 62.5 L 436.5 79.5 L 436.5 96.5 L 436.5 113.5 L 436.5 130.5 L 453.5 28.5 L 453.5 45.5 L 453.5 62.5 L 453.5 79.5 L 453.5 96.5 L 453.5 113.5 L 453.5 130.5 L 470.5 28.5 L 470.5 45.5 L 470.5 62.5 L 470.5 79.5 L 470.5 96.5 L 470.5 113.5 L 470.5 130.5 L 487.5 28.5 L 487.5 45.5 L 487.5 62.5 L 487.5 79.5 L 487.5 96.5 L 487.5 113.5 L 487.5 130.5 L 504.5 28.5 L 504.5 45.5 L 504.5 62.5 L 504.5 79.5 L 504.5 96.5 L 504.5 113.5 L 504.5 130.5 L 521.5 28.5 L 521.5 45.5 L 521.5 62.5 L 521.5 79.5 L 521.5 96.5 L 521.5 113.5 L 521.5 130.5 L 538.5 28.5 L 538.5 45.5 L 538.5 62.5 L 538.5 79.5 L 538.5 96.5 L 538.5 113.5 L 538.5 130.5 L 555.5 28.5 L 555.5 45.5 L 555.5 62.5 L 555.5 79.5 L 555.5 96.5 L 555.5 113.5 L 555.5 130.5 L 572.5 28.5 L 572.5 45.5 L 572.5 62.5 L 572.5 79.5 L 572.5 96.5 L 572.5 113.5 L 572.5 130.5 L 589.5 28.5 L 589.5 45.5 L 589.5 62.5 L 589.5 79.5 L 589.5 96.5 L 589.5 113.5 L 589.5 130.5 L 606.5 28.5 L 606.5 45.5 L 606.5 62.5 L 606.5 79.5 L 606.5 96.5 L 606.5 113.5 L 606.5 130.5 L 623.5 28.5 L 623.5 45.5 L 623.5 62.5 L 623.5 79.5 L 623.5 96.5 L 623.5 113.5 L 623.5 130.5 L 640.5 28.5 L 640.5 45.5 L 640.5 62.5 L 640.5 79.5 L 640.5 96.5 L 640.5 113.5 L 640.5 130.5 L 657.5 28.5 L 657.5 45.5 L 657.5 62.5 L 657.5 79.5 L 657.5 96.5 L 657.5 113.5 L 657.5 130.5 L 674.5 28.5 L 674.5 45.5 L 674.5 62.5 L 674.5 79.5 L 674.5 96.5 L 674.5 113.5 L 674.5 130.5 L 691.5 28.5 L 691.5 45.5 L 691.5 62.5 L 691.5 79.5 L 691.5 96.5 L 691.5 113.5 L 691.5 130.5 L 708.5 28.5 L 708.5 45.5 L 708.5 62.5 L 708.5 79.5 L 708.5 96.5 L 708.5 113.5 L 708.5 130.5 L 725.5 28.5 L 725.5 45.5 L 725.5 62.5 L 725.5 79.5 L 725.5 96.5 L 725.5 113.5 L 725.5 130.5 L 742.5 28.5 L 742.5 45.5 L 742.5 62.5 L 742.5 79.5 L 742.5 96.5 L 742.5 113.5 L 742.5 130.5 L 759.5 28.5 L 759.5 45.5 L 759.5 62.5 L 759.5 79.5 L 759.5 96.5 L 759.5 113.5 L 759.5 130.5 L 776.5 28.5 L 776.5 45.5 L 776.5 62.5 L 776.5 79.5 L 776.5 96.5 L 776.5 113.5 L 776.5 130.5 L 793.5 28.5 L 793.5 45.5 L 793.5 62.5 L 793.5 79.5 L 793.5 96.5 L 793.5 113.5 L 793.5 130.5 L 810.5 28.5 L 810.5 45.5 L 810.5 62.5 L 810.5 79.5 L 810.5 96.5 L 810.5 113.5 L 810.5 130.5 L 827.5 28.5 L 827.5 45.5 L 827.5 62.5 L 827.5 79.5 L 827.5 96.5 L 827.5 113.5 L 827.5 130.5 L 844.5 28.5 L 844.5 45.5 L 844.5 62.5 L 844.5 79.5 L 844.5 96.5 L 844.5 113.5 L 844.5 130.5 L 861.5 28.5 L 861.5 45.5 L 861.5 62.5 L 861.5 79.5 L 861.5 96.5 L 861.5 113.5 L 861.5 130.5 L 878.5 28.5 L 878.5 45.5 L 878.5 62.5 L 878.5 79.5 L 878.5 96.5 L 878.5 113.5 L 878.5 130.5 L 895.5 28.5 L 895.5 45.5 L 895.5 62.5 L 895.5 79.5 L 895.5 96.5 L 895.5 113.5 L 895.5 130.5 L 912.5 28.5 L 912.5 45.5 L 912.5 62.5 L 912.5 79.5 L 912.5 96.5" fill="none" stroke="none"/>
-      </defs>
-    
+    <!-- маршрут -->
+    <path id="route" d="M 28.5 28.5 L 28.5 45.5 L 28.5 62.5 L 28.5 79.5 L 28.5 96.5 L 28.5 113.5 L 28.5 130.5 L 45.5 28.5 L 45.5 45.5 L 45.5 62.5 L 45.5 79.5 L 45.5 96.5 L 45.5 113.5 L 45.5 130.5 L 62.5 28.5 L 62.5 45.5 L 62.5 62.5 L 62.5 79.5 L 62.5 96.5 L 62.5 113.5 L 62.5 130.5 L 79.5 28.5 L 79.5 45.5 L 79.5 62.5 L 79.5 79.5 L 79.5 96.5 L 79.5 113.5 L 79.5 130.5 L 96.5 28.5 L 96.5 45.5 L 96.5 62.5 L 96.5 79.5 L 96.5 96.5 L 96.5 113.5 L 96.5 130.5 L 113.5 28.5 L 113.5 45.5 L 113.5 62.5 L 113.5 79.5 L 113.5 96.5 L 113.5 113.5 L 113.5 130.5 L 130.5 28.5 L 130.5 45.5 L 130.5 62.5 L 130.5 79.5 L 130.5 96.5 L 130.5 113.5 L 130.5 130.5 L 147.5 28.5 L 147.5 45.5 L 147.5 62.5 L 147.5 79.5 L 147.5 96.5 L 147.5 113.5 L 147.5 130.5 L 164.5 28.5 L 164.5 45.5 L 164.5 62.5 L 164.5 79.5 L 164.5 96.5 L 164.5 113.5 L 164.5 130.5 L 181.5 28.5 L 181.5 45.5 L 181.5 62.5 L 181.5 79.5 L 181.5 96.5 L 181.5 113.5 L 181.5 130.5 L 198.5 28.5 L 198.5 45.5 L 198.5 62.5 L 198.5 79.5 L 198.5 96.5 L 198.5 113.5 L 198.5 130.5 L 215.5 28.5 L 215.5 45.5 L 215.5 62.5 L 215.5 79.5 L 215.5 96.5 L 215.5 113.5 L 215.5 130.5 L 232.5 28.5 L 232.5 45.5 L 232.5 62.5 L 232.5 79.5 L 232.5 96.5 L 232.5 113.5 L 232.5 130.5 L 249.5 28.5 L 249.5 45.5 L 249.5 62.5 L 249.5 79.5 L 249.5 96.5 L 249.5 113.5 L 249.5 130.5 L 266.5 28.5 L 266.5 45.5 L 266.5 62.5 L 266.5 79.5 L 266.5 96.5 L 266.5 113.5 L 266.5 130.5 L 283.5 28.5 L 283.5 45.5 L 283.5 62.5 L 283.5 79.5 L 283.5 96.5 L 283.5 113.5 L 283.5 130.5 L 300.5 28.5 L 300.5 45.5 L 300.5 62.5 L 300.5 79.5 L 300.5 96.5 L 300.5 113.5 L 300.5 130.5 L 317.5 28.5 L 317.5 45.5 L 317.5 62.5 L 317.5 79.5 L 317.5 96.5 L 317.5 113.5 L 317.5 130.5 L 334.5 28.5 L 334.5 45.5 L 334.5 62.5 L 334.5 79.5 L 334.5 96.5 L 334.5 113.5 L 334.5 130.5 L 351.5 28.5 L 351.5 45.5 L 351.5 62.5 L 351.5 79.5 L 351.5 96.5 L 351.5 113.5 L 351.5 130.5 L 368.5 28.5 L 368.5 45.5 L 368.5 62.5 L 368.5 79.5 L 368.5 96.5 L 368.5 113.5 L 368.5 130.5 L 385.5 28.5 L 385.5 45.5 L 385.5 62.5 L 385.5 79.5 L 385.5 96.5 L 385.5 113.5 L 385.5 130.5 L 402.5 28.5 L 402.5 45.5 L 402.5 62.5 L 402.5 79.5 L 402.5 96.5 L 402.5 113.5 L 402.5 130.5 L 419.5 28.5 L 419.5 45.5 L 419.5 62.5 L 419.5 79.5 L 419.5 96.5 L 419.5 113.5 L 419.5 130.5 L 436.5 28.5 L 436.5 45.5 L 436.5 62.5 L 436.5 79.5 L 436.5 96.5 L 436.5 113.5 L 436.5 130.5 L 453.5 28.5 L 453.5 45.5 L 453.5 62.5 L 453.5 79.5 L 453.5 96.5 L 453.5 113.5 L 453.5 130.5 L 470.5 28.5 L 470.5 45.5 L 470.5 62.5 L 470.5 79.5 L 470.5 96.5 L 470.5 113.5 L 470.5 130.5 L 487.5 28.5 L 487.5 45.5 L 487.5 62.5 L 487.5 79.5 L 487.5 96.5 L 487.5 113.5 L 487.5 130.5 L 504.5 28.5 L 504.5 45.5 L 504.5 62.5 L 504.5 79.5 L 504.5 96.5 L 504.5 113.5 L 504.5 130.5 L 521.5 28.5 L 521.5 45.5 L 521.5 62.5 L 521.5 79.5 L 521.5 96.5 L 521.5 113.5 L 521.5 130.5 L 538.5 28.5 L 538.5 45.5 L 538.5 62.5 L 538.5 79.5 L 538.5 96.5 L 538.5 113.5 L 538.5 130.5 L 555.5 28.5 L 555.5 45.5 L 555.5 62.5 L 555.5 79.5 L 555.5 96.5 L 555.5 113.5 L 555.5 130.5 L 572.5 28.5 L 572.5 45.5 L 572.5 62.5 L 572.5 79.5 L 572.5 96.5 L 572.5 113.5 L 572.5 130.5 L 589.5 28.5 L 589.5 45.5 L 589.5 62.5 L 589.5 79.5 L 589.5 96.5 L 589.5 113.5 L 589.5 130.5 L 606.5 28.5 L 606.5 45.5 L 606.5 62.5 L 606.5 79.5 L 606.5 96.5 L 606.5 113.5 L 606.5 130.5 L 623.5 28.5 L 623.5 45.5 L 623.5 62.5 L 623.5 79.5 L 623.5 96.5 L 623.5 113.5 L 623.5 130.5 L 640.5 28.5 L 640.5 45.5 L 640.5 62.5 L 640.5 79.5 L 640.5 96.5 L 640.5 113.5 L 640.5 130.5 L 657.5 28.5 L 657.5 45.5 L 657.5 62.5 L 657.5 79.5 L 657.5 96.5 L 657.5 113.5 L 657.5 130.5 L 674.5 28.5 L 674.5 45.5 L 674.5 62.5 L 674.5 79.5 L 674.5 96.5 L 674.5 113.5 L 674.5 130.5 L 691.5 28.5 L 691.5 45.5 L 691.5 62.5 L 691.5 79.5 L 691.5 96.5 L 691.5 113.5 L 691.5 130.5 L 708.5 28.5 L 708.5 45.5 L 708.5 62.5 L 708.5 79.5 L 708.5 96.5 L 708.5 113.5 L 708.5 130.5 L 725.5 28.5 L 725.5 45.5 L 725.5 62.5 L 725.5 79.5 L 725.5 96.5 L 725.5 113.5 L 725.5 130.5 L 742.5 28.5 L 742.5 45.5 L 742.5 62.5 L 742.5 79.5 L 742.5 96.5 L 742.5 113.5 L 742.5 130.5 L 759.5 28.5 L 759.5 45.5 L 759.5 62.5 L 759.5 79.5 L 759.5 96.5 L 759.5 113.5 L 759.5 130.5 L 776.5 28.5 L 776.5 45.5 L 776.5 62.5 L 776.5 79.5 L 776.5 96.5 L 776.5 113.5 L 776.5 130.5 L 793.5 28.5 L 793.5 45.5 L 793.5 62.5 L 793.5 79.5 L 793.5 96.5 L 793.5 113.5 L 793.5 130.5 L 810.5 28.5 L 810.5 45.5 L 810.5 62.5 L 810.5 79.5 L 810.5 96.5 L 810.5 113.5 L 810.5 130.5 L 827.5 28.5 L 827.5 45.5 L 827.5 62.5 L 827.5 79.5 L 827.5 96.5 L 827.5 113.5 L 827.5 130.5 L 844.5 28.5 L 844.5 45.5 L 844.5 62.5 L 844.5 79.5 L 844.5 96.5 L 844.5 113.5 L 844.5 130.5 L 861.5 28.5 L 861.5 45.5 L 861.5 62.5 L 861.5 79.5 L 861.5 96.5 L 861.5 113.5 L 861.5 130.5 L 878.5 28.5 L 878.5 45.5 L 878.5 62.5 L 878.5 79.5 L 878.5 96.5 L 878.5 113.5 L 878.5 130.5 L 895.5 28.5 L 895.5 45.5 L 895.5 62.5 L 895.5 79.5 L 895.5 96.5 L 895.5 113.5 L 895.5 130.5 L 912.5 28.5 L 912.5 45.5 L 912.5 62.5 L 912.5 79.5 L 912.5 96.5" fill="none" stroke="none"/>
+  </defs>
+
 <rect width="100%" height="100%" fill="url(#bg)"/>
 <rect x="22" y="22" width="13" height="13" rx="3" ry="3" fill="#ebedf0" id="c0"/>
 <rect x="22" y="39" width="13" height="13" rx="3" ry="3" fill="#ebedf0" id="c1"/>
@@ -395,396 +395,397 @@
 <rect x="906" y="56" width="13" height="13" rx="3" ry="3" fill="#9be9a8" id="c366"/>
 <rect x="906" y="73" width="13" height="13" rx="3" ry="3" fill="#9be9a8" id="c367"/>
 <rect x="906" y="90" width="13" height="13" rx="3" ry="3" fill="#216e39" id="c368"/>
-<animate xlink:href="#c0" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c1" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c2" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c3" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c4" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c5" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c6" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c7" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c8" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c9" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c10" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c11" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c12" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c13" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c14" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c15" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c16" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c17" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c18" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c19" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c20" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c21" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c22" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c23" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c24" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c25" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c26" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c27" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c28" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c29" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c30" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c31" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c32" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c33" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c34" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c35" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c36" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c37" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c38" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c39" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c40" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c41" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c42" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c43" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c44" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c45" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c46" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c47" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c48" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c49" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c50" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c51" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c52" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c53" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c54" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c55" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c56" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c57" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c58" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c59" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c60" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c61" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c62" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c63" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c64" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c65" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c66" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c67" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c68" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c69" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c70" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c71" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c72" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c73" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c74" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c75" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c76" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c77" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c78" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c79" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c80" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c81" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c82" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c83" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c84" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c85" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c86" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c87" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c88" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c89" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c90" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c91" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c92" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c93" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c94" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c95" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c96" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c97" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c98" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c99" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c100" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c101" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c102" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c103" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c104" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c105" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c106" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c107" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c108" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c109" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c110" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c111" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c112" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c113" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c114" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c115" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c116" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c117" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c118" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c119" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c120" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c121" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c122" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c123" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c124" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c125" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c126" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c127" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c128" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c129" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c130" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c131" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c132" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c133" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c134" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c135" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c136" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c137" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c138" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c139" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c140" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c141" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c142" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c143" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c144" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c145" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c146" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c147" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c148" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c149" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c150" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c151" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c152" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c153" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c154" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c155" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c156" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c157" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c158" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c159" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c160" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c161" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c162" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c163" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c164" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c165" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c166" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c167" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c168" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c169" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c170" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c171" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c172" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c173" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c174" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c175" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c176" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c177" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c178" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c179" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c180" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c181" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c182" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c183" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c184" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c185" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c186" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c187" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c188" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c189" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c190" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c191" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c192" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c193" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c194" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c195" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c196" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c197" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c198" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c199" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c200" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c201" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c202" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c203" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c204" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c205" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c206" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c207" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c208" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c209" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c210" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c211" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c212" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c213" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c214" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c215" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c216" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c217" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c218" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c219" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c220" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c221" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c222" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c223" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c224" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c225" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c226" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c227" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c228" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c229" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c230" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c231" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c232" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c233" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c234" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c235" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c236" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c237" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c238" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c239" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c240" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c241" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c242" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c243" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c244" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c245" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c246" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c247" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c248" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c249" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c250" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c251" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c252" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c253" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c254" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c255" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c256" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c257" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c258" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c259" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c260" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c261" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c262" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c263" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c264" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c265" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c266" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c267" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c268" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c269" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c270" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c271" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c272" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c273" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c274" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c275" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c276" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c277" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c278" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c279" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c280" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c281" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c282" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c283" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c284" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c285" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c286" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c287" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c288" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c289" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c290" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c291" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c292" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c293" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c294" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c295" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c296" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c297" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c298" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c299" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c300" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c301" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c302" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c303" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c304" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c305" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c306" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c307" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c308" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c309" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c310" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c311" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c312" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c313" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c314" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c315" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c316" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c317" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c318" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c319" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c320" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c321" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c322" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c323" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c324" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c325" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c326" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c327" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c328" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c329" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c330" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c331" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c332" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c333" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c334" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c335" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c336" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c337" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c338" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c339" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c340" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c341" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c342" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c343" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c344" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c345" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c346" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c347" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c348" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c349" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c350" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c351" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c352" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c353" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c354" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c355" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c356" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c357" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c358" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c359" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c360" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c361" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c362" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c363" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c364" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c365" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c366" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c367" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
-<animate xlink:href="#c368" attributeName="opacity" values="1;0;1" keyTimes="0;0.02;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete" keySplines="0 0 1 1"/>
+<animate href="#c0" attributeName="opacity" values="1;0;1" keyTimes="0;0.000217;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c1" attributeName="opacity" values="1;0;1" keyTimes="0;0.002927;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c2" attributeName="opacity" values="1;0;1" keyTimes="0;0.005637;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c3" attributeName="opacity" values="1;0;1" keyTimes="0;0.008347;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c4" attributeName="opacity" values="1;0;1" keyTimes="0;0.011057;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c5" attributeName="opacity" values="1;0;1" keyTimes="0;0.013767;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c6" attributeName="opacity" values="1;0;1" keyTimes="0;0.016477;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c7" attributeName="opacity" values="1;0;1" keyTimes="0;0.019187;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c8" attributeName="opacity" values="1;0;1" keyTimes="0;0.021897;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c9" attributeName="opacity" values="1;0;1" keyTimes="0;0.024607;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c10" attributeName="opacity" values="1;0;1" keyTimes="0;0.027317;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c11" attributeName="opacity" values="1;0;1" keyTimes="0;0.030027;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c12" attributeName="opacity" values="1;0;1" keyTimes="0;0.032737;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c13" attributeName="opacity" values="1;0;1" keyTimes="0;0.035447;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c14" attributeName="opacity" values="1;0;1" keyTimes="0;0.038157;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c15" attributeName="opacity" values="1;0;1" keyTimes="0;0.040867;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c16" attributeName="opacity" values="1;0;1" keyTimes="0;0.043577;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c17" attributeName="opacity" values="1;0;1" keyTimes="0;0.046287;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c18" attributeName="opacity" values="1;0;1" keyTimes="0;0.048997;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c19" attributeName="opacity" values="1;0;1" keyTimes="0;0.051707;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c20" attributeName="opacity" values="1;0;1" keyTimes="0;0.054417;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c21" attributeName="opacity" values="1;0;1" keyTimes="0;0.057127;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c22" attributeName="opacity" values="1;0;1" keyTimes="0;0.059837;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c23" attributeName="opacity" values="1;0;1" keyTimes="0;0.062547;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c24" attributeName="opacity" values="1;0;1" keyTimes="0;0.065257;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c25" attributeName="opacity" values="1;0;1" keyTimes="0;0.067967;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c26" attributeName="opacity" values="1;0;1" keyTimes="0;0.070678;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c27" attributeName="opacity" values="1;0;1" keyTimes="0;0.073388;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c28" attributeName="opacity" values="1;0;1" keyTimes="0;0.076098;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c29" attributeName="opacity" values="1;0;1" keyTimes="0;0.078808;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c30" attributeName="opacity" values="1;0;1" keyTimes="0;0.081518;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c31" attributeName="opacity" values="1;0;1" keyTimes="0;0.084228;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c32" attributeName="opacity" values="1;0;1" keyTimes="0;0.086938;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c33" attributeName="opacity" values="1;0;1" keyTimes="0;0.089648;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c34" attributeName="opacity" values="1;0;1" keyTimes="0;0.092358;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c35" attributeName="opacity" values="1;0;1" keyTimes="0;0.095068;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c36" attributeName="opacity" values="1;0;1" keyTimes="0;0.097778;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c37" attributeName="opacity" values="1;0;1" keyTimes="0;0.100488;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c38" attributeName="opacity" values="1;0;1" keyTimes="0;0.103198;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c39" attributeName="opacity" values="1;0;1" keyTimes="0;0.105908;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c40" attributeName="opacity" values="1;0;1" keyTimes="0;0.108618;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c41" attributeName="opacity" values="1;0;1" keyTimes="0;0.111328;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c42" attributeName="opacity" values="1;0;1" keyTimes="0;0.114038;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c43" attributeName="opacity" values="1;0;1" keyTimes="0;0.116748;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c44" attributeName="opacity" values="1;0;1" keyTimes="0;0.119458;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c45" attributeName="opacity" values="1;0;1" keyTimes="0;0.122168;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c46" attributeName="opacity" values="1;0;1" keyTimes="0;0.124878;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c47" attributeName="opacity" values="1;0;1" keyTimes="0;0.127588;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c48" attributeName="opacity" values="1;0;1" keyTimes="0;0.130298;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c49" attributeName="opacity" values="1;0;1" keyTimes="0;0.133008;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c50" attributeName="opacity" values="1;0;1" keyTimes="0;0.135718;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c51" attributeName="opacity" values="1;0;1" keyTimes="0;0.138428;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c52" attributeName="opacity" values="1;0;1" keyTimes="0;0.141138;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c53" attributeName="opacity" values="1;0;1" keyTimes="0;0.143848;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c54" attributeName="opacity" values="1;0;1" keyTimes="0;0.146558;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c55" attributeName="opacity" values="1;0;1" keyTimes="0;0.149268;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c56" attributeName="opacity" values="1;0;1" keyTimes="0;0.151978;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c57" attributeName="opacity" values="1;0;1" keyTimes="0;0.154688;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c58" attributeName="opacity" values="1;0;1" keyTimes="0;0.157398;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c59" attributeName="opacity" values="1;0;1" keyTimes="0;0.160108;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c60" attributeName="opacity" values="1;0;1" keyTimes="0;0.162818;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c61" attributeName="opacity" values="1;0;1" keyTimes="0;0.165528;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c62" attributeName="opacity" values="1;0;1" keyTimes="0;0.168238;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c63" attributeName="opacity" values="1;0;1" keyTimes="0;0.170949;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c64" attributeName="opacity" values="1;0;1" keyTimes="0;0.173659;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c65" attributeName="opacity" values="1;0;1" keyTimes="0;0.176369;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c66" attributeName="opacity" values="1;0;1" keyTimes="0;0.179079;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c67" attributeName="opacity" values="1;0;1" keyTimes="0;0.181789;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c68" attributeName="opacity" values="1;0;1" keyTimes="0;0.184499;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c69" attributeName="opacity" values="1;0;1" keyTimes="0;0.187209;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c70" attributeName="opacity" values="1;0;1" keyTimes="0;0.189919;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c71" attributeName="opacity" values="1;0;1" keyTimes="0;0.192629;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c72" attributeName="opacity" values="1;0;1" keyTimes="0;0.195339;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c73" attributeName="opacity" values="1;0;1" keyTimes="0;0.198049;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c74" attributeName="opacity" values="1;0;1" keyTimes="0;0.200759;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c75" attributeName="opacity" values="1;0;1" keyTimes="0;0.203469;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c76" attributeName="opacity" values="1;0;1" keyTimes="0;0.206179;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c77" attributeName="opacity" values="1;0;1" keyTimes="0;0.208889;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c78" attributeName="opacity" values="1;0;1" keyTimes="0;0.211599;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c79" attributeName="opacity" values="1;0;1" keyTimes="0;0.214309;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c80" attributeName="opacity" values="1;0;1" keyTimes="0;0.217019;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c81" attributeName="opacity" values="1;0;1" keyTimes="0;0.219729;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c82" attributeName="opacity" values="1;0;1" keyTimes="0;0.222439;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c83" attributeName="opacity" values="1;0;1" keyTimes="0;0.225149;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c84" attributeName="opacity" values="1;0;1" keyTimes="0;0.227859;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c85" attributeName="opacity" values="1;0;1" keyTimes="0;0.230569;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c86" attributeName="opacity" values="1;0;1" keyTimes="0;0.233279;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c87" attributeName="opacity" values="1;0;1" keyTimes="0;0.235989;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c88" attributeName="opacity" values="1;0;1" keyTimes="0;0.238699;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c89" attributeName="opacity" values="1;0;1" keyTimes="0;0.241409;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c90" attributeName="opacity" values="1;0;1" keyTimes="0;0.244119;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c91" attributeName="opacity" values="1;0;1" keyTimes="0;0.246829;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c92" attributeName="opacity" values="1;0;1" keyTimes="0;0.249539;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c93" attributeName="opacity" values="1;0;1" keyTimes="0;0.252249;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c94" attributeName="opacity" values="1;0;1" keyTimes="0;0.254959;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c95" attributeName="opacity" values="1;0;1" keyTimes="0;0.257669;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c96" attributeName="opacity" values="1;0;1" keyTimes="0;0.260379;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c97" attributeName="opacity" values="1;0;1" keyTimes="0;0.263089;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c98" attributeName="opacity" values="1;0;1" keyTimes="0;0.265799;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c99" attributeName="opacity" values="1;0;1" keyTimes="0;0.268509;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c100" attributeName="opacity" values="1;0;1" keyTimes="0;0.271220;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c101" attributeName="opacity" values="1;0;1" keyTimes="0;0.273930;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c102" attributeName="opacity" values="1;0;1" keyTimes="0;0.276640;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c103" attributeName="opacity" values="1;0;1" keyTimes="0;0.279350;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c104" attributeName="opacity" values="1;0;1" keyTimes="0;0.282060;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c105" attributeName="opacity" values="1;0;1" keyTimes="0;0.284770;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c106" attributeName="opacity" values="1;0;1" keyTimes="0;0.287480;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c107" attributeName="opacity" values="1;0;1" keyTimes="0;0.290190;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c108" attributeName="opacity" values="1;0;1" keyTimes="0;0.292900;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c109" attributeName="opacity" values="1;0;1" keyTimes="0;0.295610;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c110" attributeName="opacity" values="1;0;1" keyTimes="0;0.298320;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c111" attributeName="opacity" values="1;0;1" keyTimes="0;0.301030;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c112" attributeName="opacity" values="1;0;1" keyTimes="0;0.303740;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c113" attributeName="opacity" values="1;0;1" keyTimes="0;0.306450;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c114" attributeName="opacity" values="1;0;1" keyTimes="0;0.309160;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c115" attributeName="opacity" values="1;0;1" keyTimes="0;0.311870;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c116" attributeName="opacity" values="1;0;1" keyTimes="0;0.314580;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c117" attributeName="opacity" values="1;0;1" keyTimes="0;0.317290;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c118" attributeName="opacity" values="1;0;1" keyTimes="0;0.320000;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c119" attributeName="opacity" values="1;0;1" keyTimes="0;0.322710;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c120" attributeName="opacity" values="1;0;1" keyTimes="0;0.325420;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c121" attributeName="opacity" values="1;0;1" keyTimes="0;0.328130;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c122" attributeName="opacity" values="1;0;1" keyTimes="0;0.330840;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c123" attributeName="opacity" values="1;0;1" keyTimes="0;0.333550;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c124" attributeName="opacity" values="1;0;1" keyTimes="0;0.336260;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c125" attributeName="opacity" values="1;0;1" keyTimes="0;0.338970;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c126" attributeName="opacity" values="1;0;1" keyTimes="0;0.341680;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c127" attributeName="opacity" values="1;0;1" keyTimes="0;0.344390;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c128" attributeName="opacity" values="1;0;1" keyTimes="0;0.347100;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c129" attributeName="opacity" values="1;0;1" keyTimes="0;0.349810;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c130" attributeName="opacity" values="1;0;1" keyTimes="0;0.352520;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c131" attributeName="opacity" values="1;0;1" keyTimes="0;0.355230;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c132" attributeName="opacity" values="1;0;1" keyTimes="0;0.357940;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c133" attributeName="opacity" values="1;0;1" keyTimes="0;0.360650;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c134" attributeName="opacity" values="1;0;1" keyTimes="0;0.363360;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c135" attributeName="opacity" values="1;0;1" keyTimes="0;0.366070;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c136" attributeName="opacity" values="1;0;1" keyTimes="0;0.368780;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c137" attributeName="opacity" values="1;0;1" keyTimes="0;0.371491;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c138" attributeName="opacity" values="1;0;1" keyTimes="0;0.374201;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c139" attributeName="opacity" values="1;0;1" keyTimes="0;0.376911;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c140" attributeName="opacity" values="1;0;1" keyTimes="0;0.379621;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c141" attributeName="opacity" values="1;0;1" keyTimes="0;0.382331;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c142" attributeName="opacity" values="1;0;1" keyTimes="0;0.385041;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c143" attributeName="opacity" values="1;0;1" keyTimes="0;0.387751;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c144" attributeName="opacity" values="1;0;1" keyTimes="0;0.390461;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c145" attributeName="opacity" values="1;0;1" keyTimes="0;0.393171;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c146" attributeName="opacity" values="1;0;1" keyTimes="0;0.395881;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c147" attributeName="opacity" values="1;0;1" keyTimes="0;0.398591;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c148" attributeName="opacity" values="1;0;1" keyTimes="0;0.401301;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c149" attributeName="opacity" values="1;0;1" keyTimes="0;0.404011;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c150" attributeName="opacity" values="1;0;1" keyTimes="0;0.406721;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c151" attributeName="opacity" values="1;0;1" keyTimes="0;0.409431;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c152" attributeName="opacity" values="1;0;1" keyTimes="0;0.412141;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c153" attributeName="opacity" values="1;0;1" keyTimes="0;0.414851;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c154" attributeName="opacity" values="1;0;1" keyTimes="0;0.417561;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c155" attributeName="opacity" values="1;0;1" keyTimes="0;0.420271;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c156" attributeName="opacity" values="1;0;1" keyTimes="0;0.422981;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c157" attributeName="opacity" values="1;0;1" keyTimes="0;0.425691;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c158" attributeName="opacity" values="1;0;1" keyTimes="0;0.428401;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c159" attributeName="opacity" values="1;0;1" keyTimes="0;0.431111;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c160" attributeName="opacity" values="1;0;1" keyTimes="0;0.433821;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c161" attributeName="opacity" values="1;0;1" keyTimes="0;0.436531;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c162" attributeName="opacity" values="1;0;1" keyTimes="0;0.439241;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c163" attributeName="opacity" values="1;0;1" keyTimes="0;0.441951;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c164" attributeName="opacity" values="1;0;1" keyTimes="0;0.444661;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c165" attributeName="opacity" values="1;0;1" keyTimes="0;0.447371;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c166" attributeName="opacity" values="1;0;1" keyTimes="0;0.450081;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c167" attributeName="opacity" values="1;0;1" keyTimes="0;0.452791;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c168" attributeName="opacity" values="1;0;1" keyTimes="0;0.455501;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c169" attributeName="opacity" values="1;0;1" keyTimes="0;0.458211;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c170" attributeName="opacity" values="1;0;1" keyTimes="0;0.460921;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c171" attributeName="opacity" values="1;0;1" keyTimes="0;0.463631;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c172" attributeName="opacity" values="1;0;1" keyTimes="0;0.466341;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c173" attributeName="opacity" values="1;0;1" keyTimes="0;0.469051;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c174" attributeName="opacity" values="1;0;1" keyTimes="0;0.471762;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c175" attributeName="opacity" values="1;0;1" keyTimes="0;0.474472;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c176" attributeName="opacity" values="1;0;1" keyTimes="0;0.477182;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c177" attributeName="opacity" values="1;0;1" keyTimes="0;0.479892;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c178" attributeName="opacity" values="1;0;1" keyTimes="0;0.482602;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c179" attributeName="opacity" values="1;0;1" keyTimes="0;0.485312;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c180" attributeName="opacity" values="1;0;1" keyTimes="0;0.488022;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c181" attributeName="opacity" values="1;0;1" keyTimes="0;0.490732;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c182" attributeName="opacity" values="1;0;1" keyTimes="0;0.493442;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c183" attributeName="opacity" values="1;0;1" keyTimes="0;0.496152;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c184" attributeName="opacity" values="1;0;1" keyTimes="0;0.498862;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c185" attributeName="opacity" values="1;0;1" keyTimes="0;0.501572;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c186" attributeName="opacity" values="1;0;1" keyTimes="0;0.504282;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c187" attributeName="opacity" values="1;0;1" keyTimes="0;0.506992;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c188" attributeName="opacity" values="1;0;1" keyTimes="0;0.509702;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c189" attributeName="opacity" values="1;0;1" keyTimes="0;0.512412;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c190" attributeName="opacity" values="1;0;1" keyTimes="0;0.515122;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c191" attributeName="opacity" values="1;0;1" keyTimes="0;0.517832;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c192" attributeName="opacity" values="1;0;1" keyTimes="0;0.520542;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c193" attributeName="opacity" values="1;0;1" keyTimes="0;0.523252;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c194" attributeName="opacity" values="1;0;1" keyTimes="0;0.525962;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c195" attributeName="opacity" values="1;0;1" keyTimes="0;0.528672;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c196" attributeName="opacity" values="1;0;1" keyTimes="0;0.531382;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c197" attributeName="opacity" values="1;0;1" keyTimes="0;0.534092;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c198" attributeName="opacity" values="1;0;1" keyTimes="0;0.536802;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c199" attributeName="opacity" values="1;0;1" keyTimes="0;0.539512;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c200" attributeName="opacity" values="1;0;1" keyTimes="0;0.542222;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c201" attributeName="opacity" values="1;0;1" keyTimes="0;0.544932;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c202" attributeName="opacity" values="1;0;1" keyTimes="0;0.547642;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c203" attributeName="opacity" values="1;0;1" keyTimes="0;0.550352;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c204" attributeName="opacity" values="1;0;1" keyTimes="0;0.553062;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c205" attributeName="opacity" values="1;0;1" keyTimes="0;0.555772;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c206" attributeName="opacity" values="1;0;1" keyTimes="0;0.558482;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c207" attributeName="opacity" values="1;0;1" keyTimes="0;0.561192;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c208" attributeName="opacity" values="1;0;1" keyTimes="0;0.563902;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c209" attributeName="opacity" values="1;0;1" keyTimes="0;0.566612;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c210" attributeName="opacity" values="1;0;1" keyTimes="0;0.569322;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c211" attributeName="opacity" values="1;0;1" keyTimes="0;0.572033;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c212" attributeName="opacity" values="1;0;1" keyTimes="0;0.574743;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c213" attributeName="opacity" values="1;0;1" keyTimes="0;0.577453;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c214" attributeName="opacity" values="1;0;1" keyTimes="0;0.580163;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c215" attributeName="opacity" values="1;0;1" keyTimes="0;0.582873;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c216" attributeName="opacity" values="1;0;1" keyTimes="0;0.585583;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c217" attributeName="opacity" values="1;0;1" keyTimes="0;0.588293;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c218" attributeName="opacity" values="1;0;1" keyTimes="0;0.591003;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c219" attributeName="opacity" values="1;0;1" keyTimes="0;0.593713;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c220" attributeName="opacity" values="1;0;1" keyTimes="0;0.596423;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c221" attributeName="opacity" values="1;0;1" keyTimes="0;0.599133;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c222" attributeName="opacity" values="1;0;1" keyTimes="0;0.601843;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c223" attributeName="opacity" values="1;0;1" keyTimes="0;0.604553;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c224" attributeName="opacity" values="1;0;1" keyTimes="0;0.607263;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c225" attributeName="opacity" values="1;0;1" keyTimes="0;0.609973;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c226" attributeName="opacity" values="1;0;1" keyTimes="0;0.612683;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c227" attributeName="opacity" values="1;0;1" keyTimes="0;0.615393;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c228" attributeName="opacity" values="1;0;1" keyTimes="0;0.618103;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c229" attributeName="opacity" values="1;0;1" keyTimes="0;0.620813;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c230" attributeName="opacity" values="1;0;1" keyTimes="0;0.623523;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c231" attributeName="opacity" values="1;0;1" keyTimes="0;0.626233;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c232" attributeName="opacity" values="1;0;1" keyTimes="0;0.628943;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c233" attributeName="opacity" values="1;0;1" keyTimes="0;0.631653;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c234" attributeName="opacity" values="1;0;1" keyTimes="0;0.634363;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c235" attributeName="opacity" values="1;0;1" keyTimes="0;0.637073;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c236" attributeName="opacity" values="1;0;1" keyTimes="0;0.639783;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c237" attributeName="opacity" values="1;0;1" keyTimes="0;0.642493;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c238" attributeName="opacity" values="1;0;1" keyTimes="0;0.645203;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c239" attributeName="opacity" values="1;0;1" keyTimes="0;0.647913;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c240" attributeName="opacity" values="1;0;1" keyTimes="0;0.650623;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c241" attributeName="opacity" values="1;0;1" keyTimes="0;0.653333;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c242" attributeName="opacity" values="1;0;1" keyTimes="0;0.656043;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c243" attributeName="opacity" values="1;0;1" keyTimes="0;0.658753;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c244" attributeName="opacity" values="1;0;1" keyTimes="0;0.661463;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c245" attributeName="opacity" values="1;0;1" keyTimes="0;0.664173;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c246" attributeName="opacity" values="1;0;1" keyTimes="0;0.666883;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c247" attributeName="opacity" values="1;0;1" keyTimes="0;0.669593;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c248" attributeName="opacity" values="1;0;1" keyTimes="0;0.672304;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c249" attributeName="opacity" values="1;0;1" keyTimes="0;0.675014;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c250" attributeName="opacity" values="1;0;1" keyTimes="0;0.677724;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c251" attributeName="opacity" values="1;0;1" keyTimes="0;0.680434;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c252" attributeName="opacity" values="1;0;1" keyTimes="0;0.683144;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c253" attributeName="opacity" values="1;0;1" keyTimes="0;0.685854;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c254" attributeName="opacity" values="1;0;1" keyTimes="0;0.688564;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c255" attributeName="opacity" values="1;0;1" keyTimes="0;0.691274;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c256" attributeName="opacity" values="1;0;1" keyTimes="0;0.693984;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c257" attributeName="opacity" values="1;0;1" keyTimes="0;0.696694;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c258" attributeName="opacity" values="1;0;1" keyTimes="0;0.699404;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c259" attributeName="opacity" values="1;0;1" keyTimes="0;0.702114;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c260" attributeName="opacity" values="1;0;1" keyTimes="0;0.704824;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c261" attributeName="opacity" values="1;0;1" keyTimes="0;0.707534;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c262" attributeName="opacity" values="1;0;1" keyTimes="0;0.710244;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c263" attributeName="opacity" values="1;0;1" keyTimes="0;0.712954;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c264" attributeName="opacity" values="1;0;1" keyTimes="0;0.715664;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c265" attributeName="opacity" values="1;0;1" keyTimes="0;0.718374;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c266" attributeName="opacity" values="1;0;1" keyTimes="0;0.721084;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c267" attributeName="opacity" values="1;0;1" keyTimes="0;0.723794;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c268" attributeName="opacity" values="1;0;1" keyTimes="0;0.726504;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c269" attributeName="opacity" values="1;0;1" keyTimes="0;0.729214;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c270" attributeName="opacity" values="1;0;1" keyTimes="0;0.731924;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c271" attributeName="opacity" values="1;0;1" keyTimes="0;0.734634;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c272" attributeName="opacity" values="1;0;1" keyTimes="0;0.737344;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c273" attributeName="opacity" values="1;0;1" keyTimes="0;0.740054;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c274" attributeName="opacity" values="1;0;1" keyTimes="0;0.742764;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c275" attributeName="opacity" values="1;0;1" keyTimes="0;0.745474;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c276" attributeName="opacity" values="1;0;1" keyTimes="0;0.748184;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c277" attributeName="opacity" values="1;0;1" keyTimes="0;0.750894;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c278" attributeName="opacity" values="1;0;1" keyTimes="0;0.753604;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c279" attributeName="opacity" values="1;0;1" keyTimes="0;0.756314;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c280" attributeName="opacity" values="1;0;1" keyTimes="0;0.759024;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c281" attributeName="opacity" values="1;0;1" keyTimes="0;0.761734;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c282" attributeName="opacity" values="1;0;1" keyTimes="0;0.764444;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c283" attributeName="opacity" values="1;0;1" keyTimes="0;0.767154;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c284" attributeName="opacity" values="1;0;1" keyTimes="0;0.769864;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c285" attributeName="opacity" values="1;0;1" keyTimes="0;0.772575;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c286" attributeName="opacity" values="1;0;1" keyTimes="0;0.775285;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c287" attributeName="opacity" values="1;0;1" keyTimes="0;0.777995;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c288" attributeName="opacity" values="1;0;1" keyTimes="0;0.780705;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c289" attributeName="opacity" values="1;0;1" keyTimes="0;0.783415;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c290" attributeName="opacity" values="1;0;1" keyTimes="0;0.786125;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c291" attributeName="opacity" values="1;0;1" keyTimes="0;0.788835;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c292" attributeName="opacity" values="1;0;1" keyTimes="0;0.791545;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c293" attributeName="opacity" values="1;0;1" keyTimes="0;0.794255;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c294" attributeName="opacity" values="1;0;1" keyTimes="0;0.796965;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c295" attributeName="opacity" values="1;0;1" keyTimes="0;0.799675;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c296" attributeName="opacity" values="1;0;1" keyTimes="0;0.802385;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c297" attributeName="opacity" values="1;0;1" keyTimes="0;0.805095;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c298" attributeName="opacity" values="1;0;1" keyTimes="0;0.807805;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c299" attributeName="opacity" values="1;0;1" keyTimes="0;0.810515;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c300" attributeName="opacity" values="1;0;1" keyTimes="0;0.813225;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c301" attributeName="opacity" values="1;0;1" keyTimes="0;0.815935;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c302" attributeName="opacity" values="1;0;1" keyTimes="0;0.818645;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c303" attributeName="opacity" values="1;0;1" keyTimes="0;0.821355;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c304" attributeName="opacity" values="1;0;1" keyTimes="0;0.824065;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c305" attributeName="opacity" values="1;0;1" keyTimes="0;0.826775;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c306" attributeName="opacity" values="1;0;1" keyTimes="0;0.829485;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c307" attributeName="opacity" values="1;0;1" keyTimes="0;0.832195;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c308" attributeName="opacity" values="1;0;1" keyTimes="0;0.834905;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c309" attributeName="opacity" values="1;0;1" keyTimes="0;0.837615;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c310" attributeName="opacity" values="1;0;1" keyTimes="0;0.840325;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c311" attributeName="opacity" values="1;0;1" keyTimes="0;0.843035;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c312" attributeName="opacity" values="1;0;1" keyTimes="0;0.845745;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c313" attributeName="opacity" values="1;0;1" keyTimes="0;0.848455;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c314" attributeName="opacity" values="1;0;1" keyTimes="0;0.851165;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c315" attributeName="opacity" values="1;0;1" keyTimes="0;0.853875;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c316" attributeName="opacity" values="1;0;1" keyTimes="0;0.856585;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c317" attributeName="opacity" values="1;0;1" keyTimes="0;0.859295;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c318" attributeName="opacity" values="1;0;1" keyTimes="0;0.862005;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c319" attributeName="opacity" values="1;0;1" keyTimes="0;0.864715;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c320" attributeName="opacity" values="1;0;1" keyTimes="0;0.867425;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c321" attributeName="opacity" values="1;0;1" keyTimes="0;0.870136;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c322" attributeName="opacity" values="1;0;1" keyTimes="0;0.872846;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c323" attributeName="opacity" values="1;0;1" keyTimes="0;0.875556;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c324" attributeName="opacity" values="1;0;1" keyTimes="0;0.878266;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c325" attributeName="opacity" values="1;0;1" keyTimes="0;0.880976;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c326" attributeName="opacity" values="1;0;1" keyTimes="0;0.883686;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c327" attributeName="opacity" values="1;0;1" keyTimes="0;0.886396;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c328" attributeName="opacity" values="1;0;1" keyTimes="0;0.889106;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c329" attributeName="opacity" values="1;0;1" keyTimes="0;0.891816;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c330" attributeName="opacity" values="1;0;1" keyTimes="0;0.894526;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c331" attributeName="opacity" values="1;0;1" keyTimes="0;0.897236;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c332" attributeName="opacity" values="1;0;1" keyTimes="0;0.899946;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c333" attributeName="opacity" values="1;0;1" keyTimes="0;0.902656;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c334" attributeName="opacity" values="1;0;1" keyTimes="0;0.905366;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c335" attributeName="opacity" values="1;0;1" keyTimes="0;0.908076;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c336" attributeName="opacity" values="1;0;1" keyTimes="0;0.910786;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c337" attributeName="opacity" values="1;0;1" keyTimes="0;0.913496;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c338" attributeName="opacity" values="1;0;1" keyTimes="0;0.916206;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c339" attributeName="opacity" values="1;0;1" keyTimes="0;0.918916;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c340" attributeName="opacity" values="1;0;1" keyTimes="0;0.921626;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c341" attributeName="opacity" values="1;0;1" keyTimes="0;0.924336;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c342" attributeName="opacity" values="1;0;1" keyTimes="0;0.927046;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c343" attributeName="opacity" values="1;0;1" keyTimes="0;0.929756;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c344" attributeName="opacity" values="1;0;1" keyTimes="0;0.932466;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c345" attributeName="opacity" values="1;0;1" keyTimes="0;0.935176;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c346" attributeName="opacity" values="1;0;1" keyTimes="0;0.937886;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c347" attributeName="opacity" values="1;0;1" keyTimes="0;0.940596;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c348" attributeName="opacity" values="1;0;1" keyTimes="0;0.943306;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c349" attributeName="opacity" values="1;0;1" keyTimes="0;0.946016;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c350" attributeName="opacity" values="1;0;1" keyTimes="0;0.948726;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c351" attributeName="opacity" values="1;0;1" keyTimes="0;0.951436;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c352" attributeName="opacity" values="1;0;1" keyTimes="0;0.954146;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c353" attributeName="opacity" values="1;0;1" keyTimes="0;0.956856;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c354" attributeName="opacity" values="1;0;1" keyTimes="0;0.959566;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c355" attributeName="opacity" values="1;0;1" keyTimes="0;0.962276;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c356" attributeName="opacity" values="1;0;1" keyTimes="0;0.964986;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c357" attributeName="opacity" values="1;0;1" keyTimes="0;0.967696;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c358" attributeName="opacity" values="1;0;1" keyTimes="0;0.970407;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c359" attributeName="opacity" values="1;0;1" keyTimes="0;0.973117;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c360" attributeName="opacity" values="1;0;1" keyTimes="0;0.975827;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c361" attributeName="opacity" values="1;0;1" keyTimes="0;0.978537;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c362" attributeName="opacity" values="1;0;1" keyTimes="0;0.981247;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c363" attributeName="opacity" values="1;0;1" keyTimes="0;0.983957;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c364" attributeName="opacity" values="1;0;1" keyTimes="0;0.986667;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c365" attributeName="opacity" values="1;0;1" keyTimes="0;0.989377;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c366" attributeName="opacity" values="1;0;1" keyTimes="0;0.992087;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c367" attributeName="opacity" values="1;0;1" keyTimes="0;0.994797;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+<animate href="#c368" attributeName="opacity" values="1;0;1" keyTimes="0;0.997507;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
 
-      <g filter="url(#pmShadow)">
-        <circle r="7.15" fill="#ffdf00" mask="url(#mouth)">
-          <animateMotion id="pm" dur="60.0s" begin="0s" repeatCount="indefinite">
-            <mpath href="#route"/>
-          </animateMotion>
-        </circle>
-        <!-- eye -->
-        <circle r="1.287" fill="#111822">
-          <animateMotion dur="60.0s" begin="0s" repeatCount="indefinite">
-            <mpath href="#route"/>
-          </animateMotion>
-          <animateTransform attributeName="transform" type="translate" values="1.0725,-3.432" dur="60.0s" repeatCount="indefinite"/>
-        </circle>
-        <!-- move mouth with the body -->
-        <use href="#cut">
-          <animateMotion dur="60.0s" begin="0s" repeatCount="indefinite">
-            <mpath href="#route"/>
-          </animateMotion>
-        </use>
-      </g>
-    
+  <g filter="url(#pmShadow)">
+    <circle r="7.15" fill="#ffdf00" mask="url(#mouth)">
+      <animateMotion dur="60.0s" begin="0s" repeatCount="indefinite">
+        <mpath href="#route"/>
+      </animateMotion>
+    </circle>
+    <!-- глаз -->
+    <circle r="1.287" fill="#111822">
+      <animateMotion dur="60.0s" begin="0s" repeatCount="indefinite">
+        <mpath href="#route"/>
+      </animateMotion>
+      <animateTransform attributeName="transform" type="translate"
+        values="1.0725,-3.432" dur="60.0s" repeatCount="indefinite"/>
+    </circle>
+    <!-- двигаем треугольник «рта» вместе с телом -->
+    <use href="#cut">
+      <animateMotion dur="60.0s" begin="0s" repeatCount="indefinite">
+        <mpath href="#route"/>
+      </animateMotion>
+    </use>
+  </g>
+
 <text x="470.5" y="16" fill="#8b949e" font-size="11" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace">PAC-MAN · contributions</text>
 </svg>
