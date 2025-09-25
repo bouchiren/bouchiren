@@ -13,12 +13,10 @@
     <!-- рот -->
     <mask id="mouth">
       <rect width="100%" height="100%" fill="white"/>
-      <g>
-        <polygon id="cut" points="0,0 20.8,-11.700000000000001 20.8,11.700000000000001" fill="black">
-          <animateTransform attributeName="transform" type="rotate"
-            values="-35; -5; -35" dur="0.7s" repeatCount="indefinite"/>
-        </polygon>
-      </g>
+      <polygon points="0,0 20,-12 20,12" fill="black">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-35; -5; -35" dur="0.7s" repeatCount="indefinite"/>
+      </polygon>
     </mask>
 
     <!-- маршрут -->
@@ -766,26 +764,22 @@
 <animate href="#c368" attributeName="opacity" values="1;0;1" keyTimes="0;0.997507;1" dur="60.0s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
 
   <g filter="url(#pmShadow)">
-    <circle r="7.15" fill="#ffdf00" mask="url(#mouth)">
-      <animateMotion dur="60.0s" begin="0s" repeatCount="indefinite">
-        <mpath href="#route"/>
-      </animateMotion>
-    </circle>
-    <!-- глаз -->
-    <circle r="1.287" fill="#111822">
-      <animateMotion dur="60.0s" begin="0s" repeatCount="indefinite">
-        <mpath href="#route"/>
-      </animateMotion>
-      <animateTransform attributeName="transform" type="translate"
-        values="1.0725,-3.432" dur="60.0s" repeatCount="indefinite"/>
-    </circle>
-    <!-- двигаем треугольник «рта» вместе с телом -->
-    <use href="#cut">
-      <animateMotion dur="60.0s" begin="0s" repeatCount="indefinite">
-        <mpath href="#route"/>
-      </animateMotion>
-    </use>
-  </g>
+  <!-- тело Pac-Man -->
+  <circle r="7" fill="#ffdf00" mask="url(#mouth)">
+    <animateMotion dur="60s" repeatCount="indefinite">
+      <mpath href="#route"/>
+    </animateMotion>
+  </circle>
+  
+  <!-- глаз -->
+  <circle r="1.5" fill="#111822">
+    <animateMotion dur="60s" repeatCount="indefinite">
+      <mpath href="#route"/>
+    </animateMotion>
+    <animateTransform attributeName="transform" type="translate"
+      values="1,-4" dur="60s" repeatCount="indefinite"/>
+  </circle>
+</g>
 
 <text x="470.5" y="16" fill="#8b949e" font-size="11" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace">PAC-MAN · contributions</text>
 </svg>
