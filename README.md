@@ -6,9 +6,9 @@ I build staking infrastructure, automation, and monitoring for production-grade 
 - Validators & node ops • Observability & SRE • Security & tooling
 - Solidity & on-chain automation • Bots, dashboards, CI/CD
 
-## 🎮 Pac-Man (auto-generated)
+## 🟡 Pac-Man on my contribution graph
 <p align="center">
-  <img src="./pacman.svg" alt="Pac-Man board" width="820">
+  <img src="./pacman_contrib.svg" alt="Pac-Man on contributions" width="820">
 </p>
 
 ## 🧰 Selected Work
