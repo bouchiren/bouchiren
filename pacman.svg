@@ -179,20 +179,20 @@
 
       <g>
         <circle r="10.92" fill="#ffd94a" mask="url(#mouth)">
-          <animateMotion dur="16s" begin="-3s" repeatCount="indefinite">
+          <animateMotion dur="16s" begin="-10s" repeatCount="indefinite">
             <mpath href="#route"/>
           </animateMotion>
         </circle>
         <!-- глаз -->
         <circle r="1.638" fill="#111822">
-          <animateMotion dur="16s" begin="-3s" repeatCount="indefinite">
+          <animateMotion dur="16s" begin="-10s" repeatCount="indefinite">
             <mpath href="#route"/>
           </animateMotion>
           <animateTransform attributeName="transform" type="translate" values="1.638,-4.914" dur="16s" repeatCount="indefinite"/>
         </circle>
         <!-- рот привязываем к положению круга -->
         <use href="#cut">
-          <animateMotion dur="16s" begin="-3s" repeatCount="indefinite">
+          <animateMotion dur="16s" begin="-10s" repeatCount="indefinite">
             <mpath href="#route"/>
           </animateMotion>
         </use>
@@ -212,7 +212,7 @@
             <circle cx="4.914" cy="-2.184" r="2.4024" fill="#fff"/>
             <circle cx="-3.8219999999999996" cy="-1.092" r="1.3104" fill="#2155ff"/>
             <circle cx="6.006" cy="-1.092" r="1.3104" fill="#2155ff"/>
-            <animateMotion dur="16s" begin="-6s" repeatCount="indefinite">
+            <animateMotion dur="16s" begin="-13s" repeatCount="indefinite">
               <mpath href="#route"/>
             </animateMotion>
           </g>
@@ -231,7 +231,7 @@
             <circle cx="4.914" cy="-2.184" r="2.4024" fill="#fff"/>
             <circle cx="-3.8219999999999996" cy="-1.092" r="1.3104" fill="#2155ff"/>
             <circle cx="6.006" cy="-1.092" r="1.3104" fill="#2155ff"/>
-            <animateMotion dur="16s" begin="-9s" repeatCount="indefinite">
+            <animateMotion dur="16s" begin="-0s" repeatCount="indefinite">
               <mpath href="#route"/>
             </animateMotion>
           </g>
@@ -250,7 +250,7 @@
             <circle cx="4.914" cy="-2.184" r="2.4024" fill="#fff"/>
             <circle cx="-3.8219999999999996" cy="-1.092" r="1.3104" fill="#2155ff"/>
             <circle cx="6.006" cy="-1.092" r="1.3104" fill="#2155ff"/>
-            <animateMotion dur="16s" begin="-12s" repeatCount="indefinite">
+            <animateMotion dur="16s" begin="-3s" repeatCount="indefinite">
               <mpath href="#route"/>
             </animateMotion>
           </g>
@@ -269,7 +269,7 @@
             <circle cx="4.914" cy="-2.184" r="2.4024" fill="#fff"/>
             <circle cx="-3.8219999999999996" cy="-1.092" r="1.3104" fill="#2155ff"/>
             <circle cx="6.006" cy="-1.092" r="1.3104" fill="#2155ff"/>
-            <animateMotion dur="16s" begin="-15s" repeatCount="indefinite">
+            <animateMotion dur="16s" begin="-6s" repeatCount="indefinite">
               <mpath href="#route"/>
             </animateMotion>
           </g>
